@@ -91,7 +91,7 @@
 		};
 
 		function _expandToLevel (level) {
-			var accmenuComponent = $(".accmenu-component"),
+			var accmenuComponent = $(targetElement),
 				levelFirstChild = accmenuComponent.find(".level-1:first-child"),
 				levelOneParent = levelFirstChild.parent(),
 				levelCounter = 0;
