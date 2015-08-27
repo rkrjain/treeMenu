@@ -9,14 +9,61 @@ The project scaffolding contains the below structure:
 
 ## Get Started
 
-1. Download the latest stable release from
-   [html5boilerplate.com](https://html5boilerplate.com/) or create a
-   custom build using [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the
-   [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
-   you'd like to use.
+1. Download and extract the contents of the zip from <https://github.com/rgjain/treeMenu/archive/gh-pages.zip>  into your project folder
+2. Include the treeMenu.js into your page.
+3. Include the treeMenu.css into you page.
+4. Include the chosen theme CSS file into your page. You can add all, but it is unnecessary.
+5. Initialize the plugin using the below code.
+6. Customize using the options.
 
+This is the complete sample code - 
+```
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/styles.css" >
+		<link rel="stylesheet" href="css/greyness.css" >
+		<link rel="stylesheet" href="css/pure-sky.css" >
+		<link rel="stylesheet" href="css/round-grey.css" >
+		<link rel="stylesheet" href="css/round-white.css" >
+		<link rel="stylesheet" href="css/sky-grey.css" >
+		<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="js/sampleData.json"></script>
+		<script type="text/javascript" src="js/treeMenu.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#componentContainer1").treeMenu({
+					theme : "lightness",
+					defaultExpandLevel : 1
+				});
+				$("#componentContainer2").treeMenu({
+					theme : "round-white",
+					defaultExpandLevel : 2
+				});
+				$("#componentContainer3").treeMenu({
+					theme : "pure-sky",
+					defaultExpandLevel : 3
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="page-wrap">
+			<h1>Tree Menu</h1>
+			<h3>This is a tree-style or accordion style menu which provides the user (developer) a functionality of nesting upto any-level. The component works on a DATASOURCE which will should be a JSON and the menu us constructed dynamically. There is no restriction on the depth of nesting.</h3>
+			<p>The code is purely written in HTML, JS, CSS and the data is in JSON format.</p>
+			<p>The project scaffolding contains the below structure:</p></p>
+			<div class="component-wrap">
+				<div class="accmenu-component" id="componentContainer1" ></div>
+				<div class="accmenu-component" id="componentContainer2" ></div>
+				<div class="accmenu-component" id="componentContainer3" ></div>
+			</div>
+		</div>
+	</body>
+</html>
+```
 
 ## Features
 
