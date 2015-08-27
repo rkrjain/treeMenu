@@ -1,0 +1,26 @@
+.round-white.accmenu-component {
+	box-shadow: none;
+	background: #eee;
+	padding: 5px;
+}
+.round-white.accmenu-component .menu-list .menu-item .label {
+	border-radius: 10px;
+	margin: 2px 0;
+}
+.round-white.accmenu-component .menu-list .menu-item .level-2 > .label,
+.round-white.accmenu-component .menu-list .menu-item .level-3 > .label,
+.round-white.accmenu-component .menu-list .menu-item .level-4 > .label,
+.round-white.accmenu-component .menu-list .menu-item .level-5 > .label {
+	background: #fff;
+}
+
+.round-white.accmenu-component .menu-list .menu-item.level-1 > .label.acchmnu-selected,
+.round-white.accmenu-component .menu-list .menu-item.level-2 > .label.acchmnu-selected,
+.round-white.accmenu-component .menu-list .menu-item.level-3 > .label.acchmnu-selected,
+.round-white.accmenu-component .menu-list .menu-item.level-4 > .label.acchmnu-selected,
+.round-white.accmenu-component .menu-list .menu-item.level-5 > .label.acchmnu-selected {
+	background: linear-gradient(#ff8031, #ed5021); /* Standard syntax */	background: -webkit-linear-gradient(#fff, #eee); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ff8031, #ed5021); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ff8031, #ed5021); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ff8831, #ff5b2a); /* Standard syntax */	
+}

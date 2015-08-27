@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="css/styles.css" >
+		<link rel="stylesheet" href="css/greyness.css" >
+		<link rel="stylesheet" href="css/pure-sky.css" >
+		<link rel="stylesheet" href="css/round-grey.css" >
+		<link rel="stylesheet" href="css/round-white.css" >
+		<link rel="stylesheet" href="css/sky-grey.css" >
+		<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="js/sampleData.json"></script>
+		<script type="text/javascript" src="js/treeMenu.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#componentContainer").treeMenu({
+					theme : "lightness",
+					defaultExpandLevel : 2
+				});
+			});
+		</script>
+	</head>
+	
+	<body>
+		<div class="page-wrap">
+			<div class="component-wrap">
+				<div class="accmenu-component" id="componentContainer" ></div>
+			</div>
+		</div>
+	</body>
+</html>

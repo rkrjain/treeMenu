@@ -1,0 +1,51 @@
+.greyness.accmenu-component .menu-list .menu-item.level-1 > .label {
+	background: -webkit-linear-gradient(#666, #333); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#666, #333); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#666, #333); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#666, #333); /* Standard syntax */
+	color: #fff;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-1 > .label:hover {
+	background: -webkit-linear-gradient(#888, #555); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#888, #555); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#888, #555); /* For Firefox 3.6 to 15 */
+}
+.greyness.accmenu-component .menu-list .menu-item.level-2 > .label {
+	background: #666;
+	color: #fff;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-2 > .label:hover {
+	background: #888;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-3 > .label {
+	background: #888;
+	color: #fff;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-3 > .label:hover {
+	background: #aaa;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-4 > .label {
+	background: #aaa;
+	color: #000;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-4 > .label:hover {
+	background: #ccc;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-5 > .label {
+	background: #ccc;
+	color: #000;
+}
+.greyness.accmenu-component .menu-list .menu-item.level-5 > .label:hover {
+	background: #eee;
+}
+
+.greyness.accmenu-component .menu-list .menu-item.level-1 > .label.acchmnu-selected,
+.greyness.accmenu-component .menu-list .menu-item.level-2 > .label.acchmnu-selected,
+.greyness.accmenu-component .menu-list .menu-item.level-3 > .label.acchmnu-selected,
+.greyness.accmenu-component .menu-list .menu-item.level-4 > .label.acchmnu-selected,
+.greyness.accmenu-component .menu-list .menu-item.level-5 > .label.acchmnu-selected {
+	background: linear-gradient(#ff8031, #ed5021); /* Standard syntax */	background: -webkit-linear-gradient(#fff, #eee); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ff8031, #ed5021); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ff8031, #ed5021); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ff8831, #ff5b2a); /* Standard syntax */	
+}

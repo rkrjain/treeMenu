@@ -1,0 +1,17 @@
+.pure-sky.accmenu-component .menu-list .menu-item .label:hover { /* style the HOVER action on a label in a menu item */
+	background: #abd9f5;
+}
+.pure-sky.accmenu-component .menu-list .menu-item .label.acchmnu-selected { /* style the SELECTED label in a menu item */
+	background: #87c1eb;
+}
+/*--- styling the labels of levels. for nesting deep into the levels - change level number as per the nesting level  ---*/
+.pure-sky.accmenu-component .menu-list .menu-item.level-1 > .label { /* style the label at the FIRST LEVEL (LEVEL-1) of the menu */
+	background: #3b91e6;
+	color: #fff;
+}
+.pure-sky.accmenu-component .menu-list .menu-item.level-1 > .label:hover {/* style the HOVER action on a label at the FIRST LEVEL (LEVEL-1) of the menu */
+	background: #1172bc;
+}
+.pure-sky.accmenu-component .menu-list .menu-item.level-1 > .label.acchmnu-selected {/* style the SELECTED label at the FIRST LEVEL (LEVEL-1) of the menu */
+	background: #125293;
+}
