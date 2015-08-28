@@ -21,7 +21,7 @@ This is the complete sample code - [demo here](http://rgjain.github.io/treeMenu)
 <!doctype html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/styles.css" >
+		<link rel="stylesheet" href="css/treeMenu.css" >
 		<link rel="stylesheet" href="css/greyness.css" >
 		<link rel="stylesheet" href="css/pure-sky.css" >
 		<link rel="stylesheet" href="css/round-grey.css" >
