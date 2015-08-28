@@ -21,7 +21,7 @@ This is the complete sample code - [demo here](http://rgjain.github.io/treeMenu)
 <!doctype html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/styles.css" >
+		<link rel="stylesheet" href="css/treeMenu.css" >
 		<link rel="stylesheet" href="css/greyness.css" >
 		<link rel="stylesheet" href="css/pure-sky.css" >
 		<link rel="stylesheet" href="css/round-grey.css" >
@@ -51,10 +51,6 @@ This is the complete sample code - [demo here](http://rgjain.github.io/treeMenu)
 	
 	<body>
 		<div class="page-wrap">
-			<h1>Tree Menu</h1>
-			<h3>This is a tree-style or accordion style menu which provides the user (developer) a functionality of nesting upto any-level. The component works on a DATASOURCE which will should be a JSON and the menu us constructed dynamically. There is no restriction on the depth of nesting.</h3>
-			<p>The code is purely written in HTML, JS, CSS and the data is in JSON format.</p>
-			<p>The project scaffolding contains the below structure:</p></p>
 			<div class="component-wrap">
 				<div class="accmenu-component" id="componentContainer1" ></div>
 				<div class="accmenu-component" id="componentContainer2" ></div>
