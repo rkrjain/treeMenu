@@ -16,7 +16,7 @@ The project scaffolding contains the below structure:
 5. Initialize the plugin using the below code.
 6. Customize using the options.
 
-This is the complete sample code - 
+This is the complete sample code - [demo here](http://rgjain.github.io/treeMenu)
 ```
 <!doctype html>
 <html>
