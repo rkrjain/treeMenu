@@ -146,11 +146,11 @@ $("...").treeMenu().hierarchySelection(hierarchyKey);
 
 ## Browser support
 
-* Chrome *(latest 2)*
-* Firefox *(latest 2)*
+* Chrome v44.
+* Firefox v38.
 * Internet Explorer 9+. Not tested on IE8, doesn't mean that it will not work.
-* Opera *(latest 2)*
-* Safari *(latest 2)*
+* Safari v5.
+* Opera - not tested, but nothing stops it from working. 
 
 
 ## License
