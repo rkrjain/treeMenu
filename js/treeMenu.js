@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
 
 	$.fn.treeMenu = function (options) {
 		
@@ -13,14 +13,14 @@
 			theme : "lightness"					//lightness(default), sky-grey, pure-sky, greyness, round-white, round-grey
 		}, options),
 		
-		iconAlignClass = (settings.alignIcon == 2) ? "content-right" : "content-left",
-		iconTriggerClass = (settings.expandTrigger == 1 || settings.expandTrigger == 0) ? "trigger" : "",
-		labelTriggerClass = (settings.expandTrigger == 2 || settings.expandTrigger == 0) ? "trigger" : "",
-		iconSelectionClass = (settings.selectionTrigger == 1 || settings.selectionTrigger == 0) ? "selection" : "",
-		labelSelectionClass = (settings.selectionTrigger == 2 || settings.selectionTrigger == 0) ? "selection" : "",
+		iconAlignClass = (settings.alignIcon === 2) ? "content-right" : "content-left",
+		iconTriggerClass = (settings.expandTrigger === 1 || settings.expandTrigger === 0) ? "trigger" : "",
+		labelTriggerClass = (settings.expandTrigger === 2 || settings.expandTrigger === 0) ? "trigger" : "",
+		iconSelectionClass = (settings.selectionTrigger === 1 || settings.selectionTrigger === 0) ? "selection" : "",
+		labelSelectionClass = (settings.selectionTrigger === 2 || settings.selectionTrigger === 0) ? "selection" : "",
 		targetElement = this;
 
-		this.each(function(key, val) {
+		this.each(function (key, val) {
 
 			var menuHTML = _constructMenuItems(settings.data);
 			
@@ -90,7 +90,7 @@
 			return menuList;
 		};
 
-		function _expandToLevel (level) {
+		function _expandToLevel(level) {
 			var accmenuComponent = $(targetElement),
 				levelFirstChild = accmenuComponent.find(".level-1:first-child"),
 				levelOneParent = levelFirstChild.parent(),
